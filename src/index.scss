@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+//components
+@import './components/Navbar/navbar';
+@import './components/Hero/hero';
+@import './components/WorkSection/_worksection.scss';
+@import './components/Studie/_casestudie';
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+//variable
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0px 95px;
+    background-color: rgb(236, 236, 165);
+    border: 5px solid goldenrod;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Raleway', sans-serif;
+}
+
+p, a, span, li {
+    font-family: 'IBM Plex Mono', monospace;
+}

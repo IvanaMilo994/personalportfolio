@@ -1,0 +1,28 @@
+.studie{
+    padding: 80px 0;
+}
+
+.container{
+    border: 1px solid rgb(111, 255, 0);
+
+    .headerInfo{
+        border: 5px solid rgb(120, 4, 81);
+        
+    }
+    
+    .studieContent{
+        img{
+            width: 350px;
+            height: 300px;
+            object-fit: cover;
+        }
+        
+        &_Card{
+            color: red;
+            display: flex;
+        }
+        .reverseItem{
+            flex-direction: row-reverse;
+        }
+    }
+    }
