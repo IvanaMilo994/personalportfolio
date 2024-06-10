@@ -1,25 +1,68 @@
 .studie{
-    padding: 80px 0;
+    padding: 30px 0;
 }
 
 .container{
-    border: 1px solid rgb(111, 255, 0);
 
     .headerInfo{
-        border: 5px solid rgb(120, 4, 81);
+        border: 5px dotted rgb(120, 4, 81);
+        margin: 5px;
+
+
+        .Certification{
+            margin: 5px;
+            padding: 0px;
+           
+            img{
+                
+                width: 580px;
+                height: 400px;
+                object-fit:cover;
+                display: block;
+                margin: 0 auto;
+               
+               
+
+            }
+        
+        }
+
+        
         
     }
     
     .studieContent{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
         img{
             width: 350px;
             height: 300px;
-            object-fit: cover;
+            object-fit:cover;
         }
         
         &_Card{
-            color: red;
+            color: #808080;
             display: flex;
+            gap:20px;
+
+            .leftSide{
+                
+                .btn_CaseCard{
+                    padding:12px 24px;
+                    border:none;
+                    cursor:pointer;
+                    border-radius: 15px;
+                    display: flex;
+                    align-items: center;
+                    margin-top: 15px;
+                    color: white;
+
+                
+            }
+
+            }
+            
         }
         .reverseItem{
             flex-direction: row-reverse;
